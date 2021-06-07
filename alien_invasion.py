@@ -26,7 +26,7 @@ def run_game():
     listships = gf.create_background()
     information=gf.get_background_rect(listships,ai_settings)
 
-    print(pygame.font.get_fonts())
+    # print(pygame.font.get_fonts())
 
 
     # Start the main loop for the game.

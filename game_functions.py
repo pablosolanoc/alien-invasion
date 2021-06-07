@@ -79,7 +79,7 @@ def create_background():
     list_ships=list()
     for i in range(rand):
         rand2=randint(1,4)
-        print(rand2)
+        # print(rand2)
         if rand2==1:
             if flag_star:
                 back=pygame.image.load('images/deathstar1.png')
@@ -153,8 +153,9 @@ def check_bullet_alien_collisions(ai_settings,screen,stats,sb,ship,ties,bullets)
         for aliens in collisions.values():
             for alien in aliens:
                 # explode(alien.rect.x,alien.rect.y)
-                print(alien.rect.x)
-                print(alien.rect.y)
+                # print(alien.rect.x)
+                # print(alien.rect.y)
+                pass
             stats.score += ai_settings.tie_points*len(aliens)
             sb.prep_score()
 
